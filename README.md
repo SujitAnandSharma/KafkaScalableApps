@@ -1,8 +1,8 @@
 # KafkaScalableApps
 
-/*******************************************************************
+/************************
                 Setting up Kafka Cluster
-********************************************************************/
+*************************************/
 
 1. Please make sure that Docker is already installed in the system,
 If not, install from https://www.docker.com/products/docker-desktop
@@ -26,17 +26,17 @@ This directory would contain the kafka-single-node.yml file
 
         docker-compose -f kafka-cluster.yml down
 
-/*******************************************************************
+/*******************************
                 Creating Topics
-********************************************************************/
+***************************/
 
 1. Create a topic "kafka.learning.orders" with 3 partitions and 2 replicas
 
 2. Create a topic "kafka.learning.tweets" with 4 partitions and 3 replicas
 
-/*******************************************************************
+/********************************
                 Resiliency in Action
-********************************************************************/
+*******************************/
 
 1. Login to kafka-3 using
         docker exec -it kafka-3 /bin/bash
@@ -57,7 +57,7 @@ This directory would contain the kafka-single-node.yml file
 
 
 
-/*******************************************************************
+/********************
                Thanks for following
-********************************************************************/
+*************************/
 
